@@ -1,20 +1,21 @@
 # Func(5,  f_n) -> n + nn + nnn = 615
-
-f_n = 3
-num = 5
-
-num1 = str(num) * (f_n - 1)
-num2 = str(num) * f_n
-sum_ = num + int(num1) + int(num2)
-print(sum_)
-
-
 # Func(5,  f_n) -> n + nn + nnn + nnnn = 6170
-f_n = 4
-num = 5
 
-num1 = str(num) * (f_n - 2)
-num2 = str(num) * (f_n - 1)
-num3 = str(num) * f_n
-sum_ = num + int(num1) + int(num2) + int(num3)
-print(sum_)
+
+def sum_number(add_number, number):
+
+     str_number = str(number)
+
+     sums = number
+
+     sum_str = str(number)
+
+     for _ in range(1, add_number):
+          sum_str += str_number
+
+          sums += int(sum_str)
+
+     print(sums)
+
+
+sum_number(4, 5)
