@@ -4,7 +4,6 @@
 
 list_ = []
 
-m = ''
 def func_(str_):
      
      for n in str_:
