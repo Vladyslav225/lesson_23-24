@@ -11,8 +11,6 @@ def func_(str_):
           if n.isdigit():
               list_.append(int(n))
 
-          else:
-               continue
      s = sum(list_)
      print(s)
 
