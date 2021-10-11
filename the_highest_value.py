@@ -4,7 +4,7 @@
 def search_max_keys(_dict):
 
      sorted_dict = sorted(_dict, reverse=False, key=_dict.get)
-     print(sorted_dict)
+     # print(sorted_dict)
 
      for n in sorted_dict[-3:]:
           print(n)
