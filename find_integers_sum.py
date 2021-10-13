@@ -14,4 +14,5 @@ def func_(str_):
      s = sum(list_)
      print(s)
 
-func_(input('Input your string: '))
+func_('as123sdasdasd asa sd 5 asdasd 42 234')
+func_('as1sd3asd44asd asa sd 5 asd 43')
